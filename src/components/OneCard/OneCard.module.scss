@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+.block {
+  position:relative;
+  .block__title {
+    position:absolute; 
+   	bottom:0; 
+     width: 95%;
+     height: 50px;
+     background-color: rgb(68, 76, 84);
+     opacity: 0.7;
+     text-align: center;
+     margin-bottom: 5px;
+     margin-left: -6px;
+     .title {
+      color: gold;
+      font-size: 18px;
+      font-family: 'Josefin Sans', sans-serif;
+      word-wrap: break-word;
+      padding-top: 5px;
+      font-weight: bold;
+     }
+     
+  }
+  .block__title:hover{
+    transform: scale(1.05);
+     transition-duration: 0.4s;
+  }
+}
